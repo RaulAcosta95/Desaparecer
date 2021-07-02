@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 235, 245);
+}
+.img1{
+    position: absolute;
+    width: 280px;
+    top: 18px;
+    transition: 1s;
+
+}
+.img1:hover{
+    opacity: 0;
+    transition: 1s;
+}
+.img2{
+    border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+border: 0px solid #000000;
+    -webkit-box-shadow: 6px 6px 20px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px 6px 20px -2px rgba(0,0,0,0.75);
+    box-shadow: 6px 6px 20px -2px rgba(0,0,0,0.75);
+}
